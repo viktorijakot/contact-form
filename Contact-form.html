@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    body {
+
+        width: 100%;
+    }
+
+    .container {
+        background-color: #121212;
+        font-family: 'Manrope', sans-serif;
+        color: white;
+        width: 550px;
+        margin:0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+    }
+
+    header {
+        width: 100%;
+        margin-top: 60px
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        font-weight: 800;
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        font-size: x-small;
+        text-align: center;
+    }
+
+    .purple {
+        color: #676CE7;
+        padding-left: 5px;
+    }
+
+    input {
+        border: 0;
+        background-color: #121212;
+        color: white;
+        border-bottom: 0.5px solid grey;
+        height: 40px;
+        width: 450px;
+        color: white;
+
+    }
+
+    form {
+        margin-top: 70px;
+    }
+
+    form div {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #121212;
+        border: 0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        cursor: pointer;
+
+    }
+
+    .send {
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+
+    image {
+        height: 20px;
+        width: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>Fuel Your Brand's </h1>
+                <h1>Goals with <span class="purple">Beyond</span></h1>
+            </div>
+            <div>
+                <p>You will get a response within 24 hours. We will explain in details how we can help you
+                    </br>fuel and grow your brand within the stated budget.
+                </p>
+            </div>
+        </header>
+
+        <form>
+            <div>
+                <input type="text" value="Name">
+            </div>
+            <div>
+                <input type="email" value="Email address">
+            </div>
+            <div>
+                <input type="text" value="Phone number">
+            </div>
+            <div>
+                <input type="text" value="Budget">
+            </div>
+            <div>
+                <input type="text" value="Goals">
+            </div>
+            <div>
+                <button>
+                    <p class="send" style="font-size: large;">Send Enquiry</p>
+                    <img src="Vector.png" width="40px" height="40px">
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
